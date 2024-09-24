@@ -5,7 +5,13 @@
 1. Fork GitHub project and clone repository to local.
 2. Find Docker container for WebGoat.
 3. Go to file directory in local for WebGoat.
-4. Run `docker run -it -p 127.0.0.1:8080:8080 -p 127.0.0.1:9090:9090 -e TZ=America/Montreal webgoat/webgoat-8.0` in terminal.
-5. Go to http://127.0.0.1:8080/WebGoat⁠
+4. Build new Docker container
+5. Go to
 6. Login with WebGoat user account.
 7. View homepage
+
+# Issue with committing file directly to main branch
+
+Committing the file directly to the main branch might mean that a corrupt file could be injected and cause a virus.
+
+You can prevent this by enabling settings to check the file securely.
